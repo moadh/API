@@ -5,9 +5,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
+    <UserSecretsId>69764903-3d79-4435-a96e-c9158bf66280</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
     <PackageReference Include="NSwag.AspNetCore" Version="13.7.0" />
     <PackageReference Include="Steeltoe.Extensions.Logging.DynamicLogger" Version="2.4.4" />
     <PackageReference Include="Steeltoe.Management.EndpointCore" Version="2.4.4" />
