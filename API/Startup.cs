@@ -36,8 +36,8 @@ namespace API
 			}
 			app.UseHealthChecks("/health");
 			app.UseOpenApi();
-			app.UseSwaggerUi3();
-			//app.UseReDoc();
+			//app.UseSwaggerUi3();
+			app.UseReDoc();
 			app.UseRouting();
 			app.UseEndpoints(endpoints =>
 			{
